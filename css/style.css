@@ -1,0 +1,36 @@
+body{
+    background-color: #a6acba;
+}
+
+.anima-div{
+    background: url(../img/sprite.jpg);
+    width: 170px;
+    height: 134px;
+    animation: anima-sprite 1s steps(6) infinite;
+}
+
+@keyframes anima-sprite{
+    from{
+        background-position: 0px;
+    }
+    to{
+        background-position: -914px;
+    }
+}
+
+.anima1-div{
+    background: url(../img/sprite1.jpg);
+    margin-left: 30px;
+    width: 120px;
+    height: 152px;
+    animation: anima-sprite1 1s steps(6) infinite;
+}
+
+@keyframes anima-sprite1{
+    from{
+        background-position: 0px;
+    }
+    to{
+        background-position: -894px;
+    }
+}
